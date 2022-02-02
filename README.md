@@ -1,2 +1,3 @@
-# template
-the abstraction game website template 
+# hasktag
+
+haskell tag implementation
