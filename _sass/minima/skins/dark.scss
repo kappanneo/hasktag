@@ -15,8 +15,8 @@ $tag-blue:              #3079EC !default;
 $tag-yellow:            #E0ED36 !default;
 
 $link-base-color:       $tag-blue !default;
-$link-visited-color:    $link-base-color !default;
-$link-hover-color:      $text-color !default;
+$link-visited-color:    $tag-blue !default;
+$link-hover-color:      $tag-blue !default;
 
 $border-color-01:       $brand-color-dark !default;
 $border-color-02:       $brand-color-light !default;
@@ -32,8 +32,9 @@ h1, h2, h3, h4, h5, h6 {
   color: $tag-yellow
 }
 
-.external {
+.tag-red {
    a { color: $tag-red }
+   &:visited { color: $tag-red }
 }
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
