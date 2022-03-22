@@ -1,3 +1,3 @@
 # hasktag
 
-haskell tag implementation
+haskell tag implementation (coming soon)
